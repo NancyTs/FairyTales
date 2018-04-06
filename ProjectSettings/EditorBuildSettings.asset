@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Book test.unity
+    guid: 7c0273867bff88747bb414a87ee5ad05
+  - enabled: 0
+    path: Assets/Scenes/Forest Scene.unity
+    guid: 3781388335238c146ace526f44d13d8d
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: baf1b02cb8d9de842b9794b51a6e57b0
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: cd5f987fd291bc84783ab200f4fff63b
