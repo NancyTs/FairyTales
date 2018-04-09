@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 40bc8831f1145a84684dd6b254247a32
+timeCreated: 1523155975
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FloralCapsNouveau
+  fontNames:
+  - FloralCapsNouveau
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

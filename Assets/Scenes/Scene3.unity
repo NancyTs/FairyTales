@@ -4016,7 +4016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   once: 0
-  conversation: 
+  conversation: Scene3MayorDialogue
   condition:
     luaConditions: []
     questConditions: []
