@@ -20,6 +20,7 @@ namespace PixelCrushers.DialogueSystem {
 		public Transform target = null; //Was: [SerializeField] private Transform target = null;
 		[SerializeField] private float distance = 3.0f;
 		[SerializeField] private float height = 1.0f;
+		[SerializeField] private float Xoffset = 1.0f;
 		[SerializeField] private float damping = 5.0f;
 		[SerializeField] private bool smoothRotation = true;
 		[SerializeField] private float rotationDamping = 10.0f;
@@ -50,7 +51,7 @@ namespace PixelCrushers.DialogueSystem {
 		
 		private void FixedUpdate() 
 		{
-			Vector3 wantedPosition = target.TransformPoint(0, height, -distance);
+			Vector3 wantedPosition = target.TransformPoint(Xoffset, height, -distance);
 			
 			// check to see if there is anything behind the target
 			RaycastHit hit;

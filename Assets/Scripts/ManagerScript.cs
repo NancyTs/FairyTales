@@ -72,4 +72,14 @@ public class ManagerScript : MonoBehaviour
 	{
 		return itemsPicked.Contains(id);
 	}
+
+	public bool checkRequiredItems(List<int> requiredItems)
+	{
+		foreach (int item in requiredItems)
+		{
+			if (!itemsPicked.Contains(item))
+				return false;
+		}
+		return true;
+	}
 }

@@ -19,7 +19,6 @@ public class PickableItem : MonoBehaviour
 
 	public void OnUse()
 	{
-		Debug.Log("use");
 		GameObject.FindGameObjectWithTag("GameManager").GetComponent<ManagerScript>().pickupItem(itemID);
 	}
 }

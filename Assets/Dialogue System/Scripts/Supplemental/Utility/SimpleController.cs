@@ -33,7 +33,7 @@ namespace PixelCrushers.DialogueSystem
         public float weaponDamage = 100;
 
         private CharacterController controller = null;
-        private SmoothCameraWithBumper smoothCamera = null;
+        private ThirdPersonOrbitCamBasic smoothCamera = null;
         private AudioSource audioSource = null;
         private Animation anim = null;
         private float centralSpeed = 0;
@@ -49,7 +49,7 @@ namespace PixelCrushers.DialogueSystem
         void Awake()
         {
             controller = GetComponent<CharacterController>();
-            smoothCamera = GetComponentInChildren<SmoothCameraWithBumper>();
+            smoothCamera = GetComponentInChildren<ThirdPersonOrbitCamBasic>();
             audioSource = GetComponentInChildren<AudioSource>();
             anim = GetComponent<Animation>();
         }
@@ -78,7 +78,7 @@ namespace PixelCrushers.DialogueSystem
             if (smoothCamera != null)
             {
                 // If we have a SmoothCameraWithBumper, leave camera adjustments to it:
-                smoothCamera.adjustQuaternion = yQuaternion;
+                //smoothCamera.adjustQuaternion = yQuaternion;
             }
             else
             {
@@ -112,7 +112,7 @@ namespace PixelCrushers.DialogueSystem
             {
                 if (centralTargetSpeed >= 0f)
                 {
-                    anim[runForward.name].speed = 1;
+                    anim[runForward.name].speed = 1.5f;
                     anim.CrossFade(runForward.name);
                 }
                 else if (centralTargetSpeed < -0.1f)
@@ -140,7 +140,7 @@ namespace PixelCrushers.DialogueSystem
         /// <summary>
         /// When the character is involved in a conversation, stop moving and play the idle animation.
         /// </summary>
-        void OnConversationStart()
+        void OnDisable()
         {
             anim.CrossFade(idle.name);
             centralSpeed = 0;
