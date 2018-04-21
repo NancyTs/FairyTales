@@ -23,6 +23,7 @@
             </e>
           </e>
         </e>
+        <e p="AnimationNoise.cs" t="Include" />
         <e p="Baker House" t="Include">
           <e p="Readme.txt" t="Include" />
         </e>
