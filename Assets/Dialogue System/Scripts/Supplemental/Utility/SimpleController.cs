@@ -33,7 +33,7 @@ namespace PixelCrushers.DialogueSystem
         public float weaponDamage = 100;
 
         private CharacterController controller = null;
-        private ThirdPersonOrbitCamBasic smoothCamera = null;
+        private SmoothCameraWithBumper smoothCamera = null;
         private AudioSource audioSource = null;
         private Animation anim = null;
         private float centralSpeed = 0;
@@ -49,7 +49,7 @@ namespace PixelCrushers.DialogueSystem
         void Awake()
         {
             controller = GetComponent<CharacterController>();
-            smoothCamera = GetComponentInChildren<ThirdPersonOrbitCamBasic>();
+            smoothCamera = GetComponentInChildren<SmoothCameraWithBumper>();
             audioSource = GetComponentInChildren<AudioSource>();
             anim = GetComponent<Animation>();
         }
@@ -78,7 +78,7 @@ namespace PixelCrushers.DialogueSystem
             if (smoothCamera != null)
             {
                 // If we have a SmoothCameraWithBumper, leave camera adjustments to it:
-                //smoothCamera.adjustQuaternion = yQuaternion;
+                smoothCamera.adjustQuaternion = yQuaternion;
             }
             else
             {

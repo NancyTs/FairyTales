@@ -554,6 +554,16 @@
           </e>
           <e p="Third Party Support" t="Include">
             <e p="_README.txt" t="Include" />
+            <e p="Cinemachine Support" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Sequencer Commands" t="Include">
+                  <e p="SequencerCommandCinemachinePriority.cs" t="Include" />
+                </e>
+                <e p="Triggers" t="Include">
+                  <e p="CinemachineCameraPriorityOnDialogueEvent.cs" t="Include" />
+                </e>
+              </e>
+            </e>
           </e>
         </e>
         <e p="Dreamscapes" t="Include">
@@ -564,6 +574,14 @@
           <e p="Models" t="Include">
             <e p="Shaders" t="Include">
               <e p="TransparentCutoutDiffuse2.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="HyperLuminal" t="Include">
+          <e p="SlidingTilePuzzle" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ST_PuzzleDisplay.cs" t="Include" />
+              <e p="ST_PuzzleTile.cs" t="Include" />
             </e>
           </e>
         </e>

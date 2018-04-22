@@ -25,7 +25,7 @@ public class RayCastShootComplete : MonoBehaviour {
 		gunAudio = GetComponent<AudioSource>();
 
 		// Get and store a reference to our Camera by searching this GameObject and its parents
-		fpsCam = GetComponentInParent<Camera>();
+		fpsCam = Camera.main.GetComponent<Camera>();
 	}
 	
 
