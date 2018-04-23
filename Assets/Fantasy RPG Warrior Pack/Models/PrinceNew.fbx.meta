@@ -1,0 +1,579 @@
+fileFormatVersion: 2
+guid: 22fb9ded22aea9b4b8e704896d82bbd8
+timeCreated: 1524409257
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BoneArmLeft01
+    100002: BoneArmLeft02
+    100004: BoneArmLeft03
+    100006: BoneArmRight01
+    100008: BoneArmRight02
+    100010: BoneArmRight03
+    100012: BoneHead
+    100014: BoneLegLeft01
+    100016: BoneLegLeft02
+    100018: BoneLegLeft03
+    100020: BoneLegRight01
+    100022: BoneLegRight02
+    100024: BoneLegRight03
+    100026: BoneSpine00
+    100028: BoneSpine01
+    100030: CtrlCape01
+    100032: CtrlCape02
+    100034: CtrlCape03
+    100036: CtrlHead
+    100038: CtrlHip
+    100040: CtrlLegLeft
+    100042: CtrlLegRight
+    100044: CtrlMain
+    100046: CtrlSpine
+    100048: IKLegLeft
+    100050: IKLegRight
+    100052: MeshPrinceArmor00
+    100054: MeshPrinceArmor01
+    100056: MeshPrinceArmor02
+    100058: MeshPrinceArmor03
+    100060: MeshPrinceArmor04
+    100062: MeshPrinceBody
+    100064: MeshPrinceCape
+    100066: MeshPrinceCrown
+    100068: MeshPrinceHead
+    100070: MeshPrinceShield
+    100072: MeshPrinceSword
+    100074: //RootNode
+    100076: transform1
+    100078: transform3
+    400000: BoneArmLeft01
+    400002: BoneArmLeft02
+    400004: BoneArmLeft03
+    400006: BoneArmRight01
+    400008: BoneArmRight02
+    400010: BoneArmRight03
+    400012: BoneHead
+    400014: BoneLegLeft01
+    400016: BoneLegLeft02
+    400018: BoneLegLeft03
+    400020: BoneLegRight01
+    400022: BoneLegRight02
+    400024: BoneLegRight03
+    400026: BoneSpine00
+    400028: BoneSpine01
+    400030: CtrlCape01
+    400032: CtrlCape02
+    400034: CtrlCape03
+    400036: CtrlHead
+    400038: CtrlHip
+    400040: CtrlLegLeft
+    400042: CtrlLegRight
+    400044: CtrlMain
+    400046: CtrlSpine
+    400048: IKLegLeft
+    400050: IKLegRight
+    400052: MeshPrinceArmor00
+    400054: MeshPrinceArmor01
+    400056: MeshPrinceArmor02
+    400058: MeshPrinceArmor03
+    400060: MeshPrinceArmor04
+    400062: MeshPrinceBody
+    400064: MeshPrinceCape
+    400066: MeshPrinceCrown
+    400068: MeshPrinceHead
+    400070: MeshPrinceShield
+    400072: MeshPrinceSword
+    400074: //RootNode
+    400076: transform1
+    400078: transform3
+    2100000: PrinceBody
+    2100002: PrinceCrown
+    2100004: Sword
+    2100006: PrinceSword
+    2100008: 'Material #349'
+    2300000: MeshPrinceArmor00
+    2300002: MeshPrinceArmor01
+    2300004: MeshPrinceArmor02
+    2300006: MeshPrinceArmor03
+    2300008: MeshPrinceArmor04
+    2300010: MeshPrinceCrown
+    2300012: MeshPrinceShield
+    2300014: MeshPrinceSword
+    3300000: MeshPrinceArmor00
+    3300002: MeshPrinceArmor01
+    3300004: MeshPrinceArmor02
+    3300006: MeshPrinceArmor03
+    3300008: MeshPrinceArmor04
+    3300010: MeshPrinceCrown
+    3300012: MeshPrinceShield
+    3300014: MeshPrinceSword
+    4300000: MeshPrinceBody
+    4300002: MeshPrinceCape
+    4300004: MeshPrinceCrown
+    4300006: MeshPrinceSword
+    4300008: MeshPrinceArmor03
+    4300010: MeshPrinceArmor02
+    4300012: MeshPrinceShield
+    4300014: MeshPrinceArmor04
+    4300016: MeshPrinceArmor00
+    4300018: MeshPrinceArmor01
+    4300020: MeshPrinceHead
+    7400000: Take 001
+    7400002: Take 001 (1)
+    7400004: Take 001 (2)
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: MeshPrinceBody
+    13700002: MeshPrinceCape
+    13700004: MeshPrinceHead
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'BoneSpine00' has translation animation that
+      will be discarded.\n\t'BoneSpine00' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'CtrlLegRight' has translation
+      animation that will be discarded.\n\t'CtrlLegLeft' has translation animation
+      that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: CtrlMain
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneLegLeft03
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneLegRight03
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneLegLeft02
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneLegRight02
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CtrlLegLeft
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CtrlLegRight
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneSpine01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneArmLeft01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneArmRight01
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneArmLeft02
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneArmRight02
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneArmLeft03
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CtrlHead
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MeshPrinceCrown
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BoneArmRight03
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PrinceNew(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CtrlMain
+      parentName: PrinceNew(Clone)
+      position: {x: 0, y: 0.074311554, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.9684358, y: 0.9684358, z: 0.9684358}
+    - name: CtrlCape01
+      parentName: CtrlMain
+      position: {x: -0.00079559087, y: 0.1330944, z: 0.47131982}
+      rotation: {x: 0.47771448, y: 0.5213339, z: 0.52133375, w: 0.4777143}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000006}
+    - name: CtrlCape02
+      parentName: CtrlMain
+      position: {x: 0.25038603, y: 0.19410014, z: 0.19879669}
+      rotation: {x: 0.50000006, y: 0.50000006, z: 0.49999994, w: 0.49999994}
+      scale: {x: 1.0000011, y: 1.0000004, z: 1.0000008}
+    - name: CtrlCape03
+      parentName: CtrlMain
+      position: {x: -0.23008758, y: 0.21815008, z: 0.1989505}
+      rotation: {x: 0.50000006, y: 0.50000006, z: 0.49999994, w: 0.49999994}
+      scale: {x: 1.0000011, y: 1.0000004, z: 1.0000008}
+    - name: BoneSpine00
+      parentName: CtrlMain
+      position: {x: -0.001293027, y: 0.013383097, z: 0.38311338}
+      rotation: {x: 0.50181764, y: 0.49817565, z: -0.49816754, w: 0.50182575}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000002}
+    - name: CtrlHip
+      parentName: BoneSpine00
+      position: {x: -0.000000038146972, y: 0.0000006866455, z: 0.00000003695488}
+      rotation: {x: -0.5018198, y: -0.49817365, z: 0.49816957, w: 0.50182366}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: BoneLegRight03
+      parentName: CtrlHip
+      position: {x: 0.045444947, y: -0.0028483176, z: -0.002897415}
+      rotation: {x: 0.6416331, y: 0.032840665, z: 0.7657985, w: 0.027950497}
+      scale: {x: 1.000001, y: 1.0000012, z: 1.0000006}
+    - name: BoneLegRight02
+      parentName: BoneLegRight03
+      position: {x: -0.22438057, y: -0.000000038146972, z: -0.000000009536743}
+      rotation: {x: -0.049631115, y: -0.032979485, z: 0.06229717, w: 0.99627715}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000005}
+    - name: BoneLegRight01
+      parentName: BoneLegRight02
+      position: {x: -0.20308769, y: -0.00000017166137, z: -0.0000004673004}
+      rotation: {x: 0.00000021973395, y: 0.000000014901167, z: 0.0000000027939653,
+        w: 1}
+      scale: {x: 0.9999997, y: 0.9999999, z: 1.0000001}
+    - name: transform3
+      parentName: BoneLegRight02
+      position: {x: -0.19681266, y: -0.13930242, z: -0.08104878}
+      rotation: {x: 0.7261988, y: -0.009857414, z: 0.68284637, w: -0.07911383}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+    - name: CtrlLegRight
+      parentName: transform3
+      position: {x: 0.06278772, y: -0.12826154, z: 0.00023429655}
+      rotation: {x: -0.064654075, y: 0.092383794, z: 0.006011437, w: 0.99360406}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000008}
+    - name: IKLegRight
+      parentName: CtrlLegRight
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000007450581, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BoneLegLeft03
+      parentName: CtrlHip
+      position: {x: -0.048656616, y: -0.0028483176, z: -0.002897415}
+      rotation: {x: 0.028661847, y: -0.7656527, z: 0.03202583, w: -0.64181685}
+      scale: {x: -1.0000006, y: -1.0000002, z: -1.0000005}
+    - name: BoneLegLeft02
+      parentName: BoneLegLeft03
+      position: {x: -0.22438058, y: 0, z: -0.000000009536743}
+      rotation: {x: 0.049631633, y: 0.032977164, z: -0.062292628, w: -0.9962776}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: BoneLegLeft01
+      parentName: BoneLegLeft02
+      position: {x: -0.20308775, y: -0.00000019073485, z: -0.00000043869017}
+      rotation: {x: 0.00000021513551, y: 0.000000012107204, z: 0.000000044703487,
+        w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: transform1
+      parentName: BoneLegLeft02
+      position: {x: -0.06565244, y: 0.16364819, z: -0.11781902}
+      rotation: {x: -0.5965364, y: 0.37631923, z: 0.65374565, w: 0.27412555}
+      scale: {x: 0.99999994, y: 0.99999994, z: -1}
+    - name: CtrlLegLeft
+      parentName: transform1
+      position: {x: -0.08244855, y: 0.22162662, z: 0.03848362}
+      rotation: {x: 0.4067884, y: -0.1700859, z: 0.07737462, w: 0.8942076}
+      scale: {x: 1.0000007, y: 1.0000011, z: 1.0000006}
+    - name: IKLegLeft
+      parentName: CtrlLegLeft
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BoneSpine01
+      parentName: BoneSpine00
+      position: {x: -0.16169466, y: 0, z: 0.000000002803281}
+      rotation: {x: 0.0000040233135, y: 0.000000014901161, z: -0.0072719306, w: 0.9999736}
+      scale: {x: 1.0000017, y: 1.0000018, z: 1.0000006}
+    - name: MeshPrinceArmor01
+      parentName: BoneSpine01
+      position: {x: -0.02439266, y: 0.00061966537, z: 0.07122973}
+      rotation: {x: 0.7071068, y: 0.0000020072914, z: -0.7070883, w: 0.005118364}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: CtrlSpine
+      parentName: BoneSpine01
+      position: {x: -0.15125419, y: 0.000083311796, z: -0.00000072360035}
+      rotation: {x: -0.0146544, y: 0.01659485, z: -0.7216468, w: -0.6919074}
+      scale: {x: 2.622786, y: 2.6227872, z: 2.622787}
+    - name: BoneArmRight01
+      parentName: BoneSpine01
+      position: {x: -0.1095404, y: 0.06307979, z: 0.0056147478}
+      rotation: {x: -0.5033119, y: 0.4966679, z: 0.49961063, w: -0.5003872}
+      scale: {x: 1.0000011, y: 1.0000005, z: 1.0000008}
+    - name: MeshPrinceArmor02
+      parentName: BoneArmRight01
+      position: {x: -0.062024575, y: -0.0037925004, z: 0.02949421}
+      rotation: {x: 0.7050292, y: 0.70917827, z: 0.00006140423, w: 0.00006373713}
+      scale: {x: -1, y: -1.0000002, z: -0.9999999}
+    - name: BoneArmRight02
+      parentName: BoneArmRight01
+      position: {x: -0.11985007, y: -0.000039465012, z: 0}
+      rotation: {x: 0.000000059604638, y: 0.000000014901159, z: -0.0121647995, w: 0.99992603}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: MeshPrinceArmor03
+      parentName: BoneArmRight02
+      position: {x: -0.11746742, y: 0.0022885215, z: 0.0042782975}
+      rotation: {x: 0.00006208335, y: -0.000062972926, z: -0.6963531, w: 0.71769935}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: BoneArmRight03
+      parentName: BoneArmRight02
+      position: {x: -0.14615126, y: 0.0000002755316, z: 0}
+      rotation: {x: -0.0000008644769, y: 0.0000000047412634, z: 0.0059671546, w: 0.99998224}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: MeshPrinceSword
+      parentName: BoneArmRight03
+      position: {x: -0.054686278, y: -0.04728959, z: -0.0057427594}
+      rotation: {x: 0.0000623708, y: -0.00006275083, z: -0.7006204, w: 0.7135342}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: BoneHead
+      parentName: BoneSpine01
+      position: {x: -0.16286843, y: 0, z: 0.00000001127858}
+      rotation: {x: 0.000000029776398, y: -1.12579265e-10, z: 0.00362188, w: 0.99999344}
+      scale: {x: 1.0000011, y: 1.0000012, z: 1}
+    - name: MeshPrinceCrown
+      parentName: BoneHead
+      position: {x: -0.29662368, y: 0.00241683, z: 0.014849492}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.9999996}
+    - name: CtrlHead
+      parentName: BoneHead
+      position: {x: -0.049991913, y: -0.0000009906291, z: -0.00000030517577}
+      rotation: {x: -0.014594214, y: 0.016647805, z: -0.719137, w: -0.6945156}
+      scale: {x: 2.622786, y: 2.6227865, z: 2.622787}
+    - name: BoneArmLeft01
+      parentName: BoneSpine01
+      position: {x: -0.108609006, y: -0.06556158, z: 0.0056147478}
+      rotation: {x: -0.50333995, y: 0.49663767, z: -0.49972925, w: 0.50027066}
+      scale: {x: -1.0000017, y: -1.0000006, z: -1.0000008}
+    - name: MeshPrinceArmor00
+      parentName: BoneArmLeft01
+      position: {x: -0.061489258, y: -0.0037892198, z: 0.02949417}
+      rotation: {x: 0.70492524, y: 0.7092816, z: 0.000000064727736, w: 0.00000006170408}
+      scale: {x: -0.99999994, y: -1.0000001, z: -1}
+    - name: BoneArmLeft02
+      parentName: BoneArmLeft01
+      position: {x: -0.11985007, y: -0.000039465012, z: 0}
+      rotation: {x: -0.00000010430813, y: -0.000000029802322, z: -0.012164548, w: 0.9999261}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: MeshPrinceArmor04
+      parentName: BoneArmLeft02
+      position: {x: -0.11484974, y: 0.0022938347, z: 0.004055786}
+      rotation: {x: 0.6962421, y: 0.71780705, z: 0.00000007909649, w: 0.0000000040627106}
+      scale: {x: -1.0000001, y: -1, z: -0.9999999}
+    - name: BoneArmLeft03
+      parentName: BoneArmLeft02
+      position: {x: -0.14615126, y: 0.0000002755316, z: 0}
+      rotation: {x: -0.001763967, y: -0.29537144, z: 0.0057004187, w: 0.95536387}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000008}
+    - name: MeshPrinceShield
+      parentName: BoneArmLeft03
+      position: {x: -0.050084207, y: 0.00083974836, z: 0.045495603}
+      rotation: {x: -0.009278252, y: 0.99995697, z: 0.0000009092084, w: 0.000000021367384}
+      scale: {x: -0.9999998, y: -0.9999998, z: -1.0000001}
+    - name: MeshPrinceBody
+      parentName: PrinceNew(Clone)
+      position: {x: 0.00011446689, y: 0.9873654, z: -0.044034928}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: MeshPrinceCape
+      parentName: PrinceNew(Clone)
+      position: {x: -0.0050768, y: 0.92664343, z: -0.04758933}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    - name: MeshPrinceHead
+      parentName: PrinceNew(Clone)
+      position: {x: 6.335131, y: 0.813996, z: 2.4662054}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 2.54, y: 2.54, z: 2.54}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: BoneSpine00
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

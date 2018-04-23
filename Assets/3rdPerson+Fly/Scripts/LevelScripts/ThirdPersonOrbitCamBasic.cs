@@ -33,6 +33,7 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 	void Awake()
 	{
 		// Reference to the camera transform.
+		//cam = transform;
 		cam = transform;
 
 		// Set camera default position.
@@ -40,13 +41,13 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 		cam.rotation = Quaternion.identity;
 
 		// Get camera position relative to the player, used for collision test.
-		relCameraPos = transform.position - player.position;
+		relCameraPos = cam.position - player.position;
 		relCameraPosMag = relCameraPos.magnitude - 0.5f;
 
 		// Set up references and default values.
 		smoothPivotOffset = pivotOffset;
 		smoothCamOffset = camOffset;
-		defaultFOV = cam.GetComponent<Camera>().fieldOfView;
+		defaultFOV = Camera.main.GetComponent<Camera>().fieldOfView;
 		angleH = player.eulerAngles.y;
 
 		ResetTargetOffsets ();
@@ -73,7 +74,7 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 		cam.rotation = aimRotation;
 
 		// Set FOV.
-		cam.GetComponent<Camera>().fieldOfView = Mathf.Lerp (cam.GetComponent<Camera>().fieldOfView, targetFOV,  Time.deltaTime);
+		Camera.main.GetComponent<Camera>().fieldOfView = Mathf.Lerp (Camera.main.GetComponent<Camera>().fieldOfView, targetFOV,  Time.deltaTime);
 
 		// Test for collision with the environment based on current camera position.
 		Vector3 baseTempPosition = player.position + camYRotation * targetPivotOffset;
@@ -183,7 +184,7 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 
 		if(Physics.Raycast(player.position+(Vector3.up* deltaPlayerHeight), checkPos - player.position, out hit, maxDistance))
 		{
-			if(hit.transform != player && hit.transform != transform && !hit.transform.GetComponent<Collider>().isTrigger)
+			if(hit.transform != player && hit.transform != cam && !hit.transform.GetComponent<Collider>().isTrigger)
 			{
 				return false;
 			}
