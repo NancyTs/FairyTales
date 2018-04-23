@@ -577,6 +577,7 @@
             </e>
           </e>
         </e>
+        <e p="GameManagerScript.cs" t="Include" />
         <e p="HyperLuminal" t="Include">
           <e p="SlidingTilePuzzle" t="Include">
             <e p="Scripts" t="Include">
@@ -785,6 +786,7 @@
             </e>
           </e>
         </e>
+        <e p="PuzzleTrigger.cs" t="Include" />
         <e p="Readme.txt" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BookTrigger.cs" t="Include" />

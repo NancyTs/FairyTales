@@ -43,6 +43,11 @@ public class ST_PuzzleDisplay : MonoBehaviour
 	{
 		// create the games puzzle tiles from the provided image.
 		CreatePuzzleTiles();
+		// move the puzzle to the position set in the inspector.
+		this.transform.localPosition = PuzzlePosition;
+
+		// set the scale of the entire puzzle object as set in the inspector.
+		this.transform.localScale = PuzzleScale;
 
 
 	}
@@ -50,17 +55,11 @@ public class ST_PuzzleDisplay : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		// move the puzzle to the position set in the inspector.
-		this.transform.localPosition = PuzzlePosition;
-
-		// set the scale of the entire puzzle object as set in the inspector.
-		this.transform.localScale = PuzzleScale;
 	}
 
 	public void StartPuzzle()
 	{
 		
-		Camera.main.GetComponent<DepthOfFieldDeprecated>().enabled = false;
 		// mix up the puzzle.
 		StartCoroutine(JugglePuzzle());
 	}
@@ -68,7 +67,7 @@ public class ST_PuzzleDisplay : MonoBehaviour
 	public void CompletePuzzle()
 	{
 		
-		Camera.main.GetComponent<DepthOfFieldDeprecated>().enabled = true;
+		GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerScript>().StopPuzzle();
 	}
 
 	public Vector3 GetTargetLocation(ST_PuzzleTile thisTile)
@@ -246,6 +245,7 @@ public class ST_PuzzleDisplay : MonoBehaviour
 		if(Complete)
 		{
 			Debug.Log("Puzzle Complete!");
+			CompletePuzzle();
 		}
 
 		yield return null;
