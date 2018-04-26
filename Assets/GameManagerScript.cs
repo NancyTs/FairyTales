@@ -10,6 +10,10 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject brokenFence;
 	public GameObject fixedFence;
 	public GameObject AfterPuzzleConversation;
+	public GameObject fpsGun;
+	public GameObject UICamera;
+	public GameObject Spawner;
+	
 
 	// Use this for initialization
 	void Start () {
@@ -37,6 +41,24 @@ public class GameManagerScript : MonoBehaviour
 		brokenFence.SetActive(false);
 		fixedFence.SetActive(true);
 		AfterPuzzleConversation.SetActive(true);
+	}
+
+	public void StartShootingGame()
+	{
+		
+		Camera.main.GetComponent<Animator>().SetTrigger("FPS");
+		fpsGun.SetActive(true);
+		UICamera.SetActive(true);
+		Spawner.SetActive(true);
+	}
+
+	public void StopShootingGame()
+	{
+		
+		Camera.main.GetComponent<Animator>().SetTrigger("Follow");
+		fpsGun.SetActive(false);
+		UICamera.SetActive(false);
+		Spawner.SetActive(false);
 	}
 
 }

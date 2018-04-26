@@ -570,6 +570,8 @@
           <e p="info.txt" t="Include" />
           <e p="update2.0.txt" t="Include" />
         </e>
+        <e p="EndPointScript.cs" t="Include" />
+        <e p="EnemyCharge.cs" t="Include" />
         <e p="Fantasy RPG Warrior Pack" t="Include">
           <e p="Models" t="Include">
             <e p="Shaders" t="Include">
@@ -970,6 +972,7 @@
             <e p="Initiate.cs" t="Include" />
           </e>
         </e>
+        <e p="SpawnerScript.cs" t="Include" />
         <e p="Standard Assets" t="Include">
           <e p="Characters" t="Include">
             <e p="FirstPersonCharacter" t="Include">

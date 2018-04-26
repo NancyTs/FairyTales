@@ -45,6 +45,8 @@ namespace Manoeuvre
 
             float minAngle = EditorGUILayout.Slider("Minimum Angle", _cameraController.MinMaxAngle.x, -360, 360);
             float maxAngle = EditorGUILayout.Slider("Maximum Angle", _cameraController.MinMaxAngle.y, -360, 360);
+            float minAngleY = EditorGUILayout.Slider("Minimum Angle Y", _cameraController.MinMaxAngleY.x, -360, 360);
+            float maxAngleY = EditorGUILayout.Slider("Maximum Angle Y", _cameraController.MinMaxAngleY.y, -360, 360);
 
 
             EditorGUILayout.EndVertical();
@@ -57,6 +59,8 @@ namespace Manoeuvre
                 _cameraController.lookSmoth = LookSmooth;
                 _cameraController.MinMaxAngle.x = minAngle;
                 _cameraController.MinMaxAngle.y = maxAngle;
+                _cameraController.MinMaxAngleY.x = minAngleY;
+                _cameraController.MinMaxAngleY.y = maxAngleY;
 
             }
         }

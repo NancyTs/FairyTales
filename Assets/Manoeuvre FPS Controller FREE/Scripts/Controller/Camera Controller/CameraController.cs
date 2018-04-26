@@ -12,6 +12,7 @@ namespace Manoeuvre
         public float lookSmoth = 0.1f;
 
         public Vector2 MinMaxAngle = new Vector2(65, -65);
+        public Vector2 MinMaxAngleY = new Vector2(65, -65);
 
         float yRot;
         float xRot;
@@ -44,6 +45,7 @@ namespace Manoeuvre
             xRot -= Input.GetAxis("Mouse Y") * lookSensitivity;
 
             xRot = Mathf.Clamp(xRot, MinMaxAngle.x, MinMaxAngle.y);
+            yRot = Mathf.Clamp(yRot, MinMaxAngleY.x, MinMaxAngleY.y);
 
             currentXRot = Mathf.SmoothDamp(currentXRot, xRot, ref xRotVelocity, lookSmoth);
             currentYRot = Mathf.SmoothDamp(currentYRot, yRot, ref yRotVelocity, lookSmoth);
