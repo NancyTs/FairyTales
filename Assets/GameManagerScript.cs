@@ -13,6 +13,7 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject fpsGun;
 	public GameObject UICamera;
 	public GameObject Spawner;
+	public GameObject BoarSequence;
 	
 
 	// Use this for initialization
@@ -50,6 +51,7 @@ public class GameManagerScript : MonoBehaviour
 		fpsGun.SetActive(true);
 		UICamera.SetActive(true);
 		Spawner.SetActive(true);
+		BoarSequence.SetActive(false);
 	}
 
 	public void StopShootingGame()
