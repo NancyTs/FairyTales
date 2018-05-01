@@ -16,7 +16,7 @@ public class ManagerScript : MonoBehaviour
 	void Start () {
 		bookCanvas.SetActive(false);
 		bookIcon = GameObject.FindGameObjectWithTag("BookIcon");
-		bookIcon.SetActive(false);
+		
 		
 	}
 	

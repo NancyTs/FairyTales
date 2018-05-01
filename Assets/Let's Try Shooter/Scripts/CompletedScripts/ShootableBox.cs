@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class ShootableBox : MonoBehaviour {
 
 	//The box's current health point total
-	public int currentHealth = 3;
-	public Text text;
-	private int counter;
+	public int currentHealth = 1;
+
+	private GameManagerScript manager;
 
 	private void Start()
 	{
-		text = GameObject.FindGameObjectWithTag("KillCount").GetComponent<Text>();
+		manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerScript>();
 	}
 
 	public void Damage(int damageAmount)
@@ -24,10 +24,8 @@ public class ShootableBox : MonoBehaviour {
 		if (currentHealth <= 0) 
 		{
 			//if health has fallen below zero, deactivate it 
-			gameObject.SetActive (false);
-			counter = Int32.Parse(text.text);
-			counter++;
-			text.text = counter.ToString();
+			manager.shotTarget();
+			Destroy(gameObject);
 		}
 	}
 
@@ -35,7 +33,8 @@ public class ShootableBox : MonoBehaviour {
 	{
 		if (collider.gameObject.name == "EndPoint")
 		{
-			gameObject.SetActive (false);
+			manager.missedTarget();
+			Destroy(gameObject);
 		}
 	}
 }

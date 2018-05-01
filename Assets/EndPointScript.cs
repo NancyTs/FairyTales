@@ -6,9 +6,12 @@ using UnityEngine.UI;
 public class EndPointScript : MonoBehaviour
 {
 	private int counter;
+	public GameManagerScript manager;
 
 	// Use this for initialization
-	void Start () {
+	private void Awake () {
+		
+		manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerScript>();
 		
 	}
 	
@@ -20,10 +23,10 @@ public class EndPointScript : MonoBehaviour
 	void OnTriggerEnter(Collider other)
 	{
 
-		if (other.gameObject.tag == "Boar")
+		if (other.gameObject.tag == "Shootable")
 		{
+			manager.missedTarget();
 			Destroy(other.gameObject);
-			counter++;
 		}
 	}
 }

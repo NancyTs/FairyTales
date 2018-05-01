@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using PixelCrushers.DialogueSystem;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityStandardAssets.ImageEffects;
 
 public class GameManagerScript : MonoBehaviour
@@ -14,11 +17,24 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject UICamera;
 	public GameObject Spawner;
 	public GameObject BoarSequence;
+	public GameObject ShootingGallery;
+	public GameObject AfterTutorialConversation;
+	public GameObject AfterSuccessConversation;
+	public GameObject AfterFailConversation;
+	public GameObject InstructionsConversation;
+	public Text text;
+	public int shotTargets;
+	public int missedTargets;
+	public int numSpawnTargets = 5;
+	public int requiredSuccesses;
+	public bool retryShooting = false;
+	public int shootingStage = 0;
 	
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		StartShootingGame();
 	}
 	
 	// Update is called once per frame
@@ -46,21 +62,110 @@ public class GameManagerScript : MonoBehaviour
 
 	public void StartShootingGame()
 	{
+		enableComponents();
+		Spawner.GetComponent<SpawnerScript>().pauseGame();
+		//Trigger Tutorial conversation
+		InstructionsConversation.SetActive(true);
+		AfterSuccessConversation.SetActive(false);
+		AfterTutorialConversation.SetActive(false);
+		AfterFailConversation.SetActive(false);
+		if (shootingStage == 0)
+		{
+			numSpawnTargets = 20;
+			requiredSuccesses = 1;
+			reset();
+			Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 1000, 2f, 2f, 2f, 2f);
+		}
+		else if(shootingStage == 1)
+		{
+			numSpawnTargets = 5;
+			requiredSuccesses = 3;
+			reset();
+			Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 1000, 0f, 2f, 0f, 2f);
+			
+		}
+		else if(shootingStage == 2)
+		{
+			numSpawnTargets = 5;
+			requiredSuccesses = 3;
+			reset();
+			Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 1100, -1f, 2f, -2f, 2f);
+			
+		}
+		//BoarSequence.SetActive(false);
+	}
+
+	private void reset()
+	{
+		
+		shotTargets = 0;
+		text.text = shotTargets.ToString();
+		missedTargets = 0;
+	}
+
+	void enableComponents()
+	{
 		
 		Camera.main.GetComponent<Animator>().SetTrigger("FPS");
 		fpsGun.SetActive(true);
 		UICamera.SetActive(true);
+		text = GameObject.FindGameObjectWithTag("KillCount").GetComponent<Text>();
 		Spawner.SetActive(true);
-		BoarSequence.SetActive(false);
+		ShootingGallery.SetActive(true);
+	}
+
+	public void wonShooting()
+	{
+		Spawner.GetComponent<SpawnerScript>().pauseGame();
+		if(shootingStage == 0)
+			AfterTutorialConversation.SetActive(true);
+		else
+			AfterSuccessConversation.SetActive(true);
+		shootingStage++;
+		DialogueLua.SetVariable("ShootingStage", shootingStage);
+		InstructionsConversation.SetActive(false);
+	}
+
+	public void lostShooting()
+	{
+		Spawner.GetComponent<SpawnerScript>().pauseGame();
+		AfterFailConversation.SetActive(true);
+		retryShooting = true;
+		DialogueLua.SetVariable("RetryShoot", true);
+		InstructionsConversation.SetActive(false);
 	}
 
 	public void StopShootingGame()
 	{
 		
+		InstructionsConversation.SetActive(false);
+		AfterSuccessConversation.SetActive(false);
+		AfterTutorialConversation.SetActive(false);
+		AfterFailConversation.SetActive(false);
 		Camera.main.GetComponent<Animator>().SetTrigger("Follow");
 		fpsGun.SetActive(false);
 		UICamera.SetActive(false);
 		Spawner.SetActive(false);
+		ShootingGallery.SetActive(false);
+	}
+
+	public void shotTarget()
+	{
+		shotTargets++;
+		text.text = shotTargets.ToString();
+		if (shotTargets >= requiredSuccesses)
+		{
+			wonShooting();
+		}
+	}
+
+	public void missedTarget()
+	{
+		missedTargets++;
+		if (missedTargets > numSpawnTargets-requiredSuccesses)
+		{
+			lostShooting();
+		}
 	}
 
 }
