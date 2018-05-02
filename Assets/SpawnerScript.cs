@@ -74,8 +74,8 @@ public class SpawnerScript : MonoBehaviour
 
     void monsterShooting()
     {
-      //  if (!pause)
-      //  {
+        if (!pause)
+        {
             startCountdown -= Time.deltaTime;
             if (startCountdown < 0)
             {
@@ -84,14 +84,15 @@ public class SpawnerScript : MonoBehaviour
                 {
                     spawnTimer = spawnRate;
                     Vector3 spawnPosition = transform.position;
-                    spawnPosition.y += Random.Range(-4f, 4f);
-                    spawnPosition.z += Random.Range(-10f, 10f);
+                    spawnPosition.x += Random.Range(xmin, xmax);
+                    spawnPosition.y += Random.Range(ymin, ymax);
                     Rigidbody target;
                     target = Instantiate(rockPrefab, spawnPosition, transform.rotation);
+                    target.gameObject.GetComponent<EnemyCharge>().speed = force;
                     counter--;
                 }
             }
-      //  }
+        }
     }
 
     public void pauseGame()

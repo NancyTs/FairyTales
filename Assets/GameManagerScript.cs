@@ -74,22 +74,25 @@ public class GameManagerScript : MonoBehaviour
 			numSpawnTargets = 20;
 			requiredSuccesses = 1;
 			reset();
-			Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 1000, 2f, 2f, 2f, 2f);
+			Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 20, 2f, 2f, 2f, 2f);
+			//Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 1000, 2f, 2f, 2f, 2f);
 		}
 		else if(shootingStage == 1)
 		{
-			numSpawnTargets = 5;
+			numSpawnTargets = 6;
 			requiredSuccesses = 3;
 			reset();
-			Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 1000, 0f, 2f, 0f, 2f);
+			Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 25, -3f, 3f, -8f, 8f);
+			//Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 1000, -3f, 3f, -8f, 8f);
 			
 		}
 		else if(shootingStage == 2)
 		{
-			numSpawnTargets = 5;
-			requiredSuccesses = 3;
+			numSpawnTargets = 15;
+			requiredSuccesses = 7;
 			reset();
-			Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 1100, -1f, 2f, -2f, 2f);
+			Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 30, -1f, 2f, -8f, 8f);
+			//Spawner.GetComponent<SpawnerScript>().setShootingParameters(numSpawnTargets, 1100, -1f, 2f, -2f, 2f);
 			
 		}
 		//BoarSequence.SetActive(false);

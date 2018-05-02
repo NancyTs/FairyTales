@@ -2,142 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77fb2e2f-8c92-46cd-a2c2-ab032e15e118" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/License.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/License.txt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/background.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/bubble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/bubble.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/dialog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/dialog.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/dialog.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/dialog.xcf.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_iconhighlight_focus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_iconhighlight_focus.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_rsection.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_rsection.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_section.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_section.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square4.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square_focused.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square_focused.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square_focused2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square_focused2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square_focused3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square_focused3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square_focused4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glass_square_focused4.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassbutton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassbutton.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassbutton_deactivated.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassbutton_deactivated.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassbutton_focused.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassbutton_focused.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_checked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_checked.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_checked_deactivated.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_checked_deactivated.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_checked_focus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_checked_focus.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_deactivated.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_deactivated.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_focus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasscheckbox_focus.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasssgauge_fill.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasssgauge_fill.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner_deactivated.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner_deactivated.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner_down.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner_focus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner_focus.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner_halo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glassspinner_halo.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasstab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasstab.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasstab_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasstab_down.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasstab_focus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/glasstab_focus.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/left_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/left_arrow.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/left_arrow_focus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/left_arrow_focus.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/list_sort_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/list_sort_down.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/list_sort_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/list_sort_up.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/right_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/right_arrow.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/right_arrow_focus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/right_arrow_focus.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/scrollbar_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/scrollbar_bg.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/scrollbar_btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/scrollbar_btn.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/scrollbar_btn_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/scrollbar_btn_down.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/scrollbar_thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/scrollbar_thumb.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/select.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/select.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/table_header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/table_header.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/table_header_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/table_header_down.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/textbubble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/textbubble.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/textbubble2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/textbubble2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/tooltip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/blender-colors-gui-theme/tooltip.png.meta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dialogue System/Examples/Computer Input Loop/Computer Input Loop.asset" afterPath="$PROJECT_DIR$/Assets/Dialogue System/Examples/Computer Input Loop/Computer Input Loop.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03.prefab" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/diffuse.png" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/diffuse.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/shadow.png" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/shadow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09.prefab" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/diffuse.png" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/diffuse.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/normal_specular.png" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/normal_specular.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/shadow.png" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/shadow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Scenes/SceneData/Demo03/Animations/Main Camera.controller" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Scenes/SceneData/Demo03/Animations/Main Camera.controller" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/HyperLuminal/SlidingTilePuzzle/Prefabs/SlideTile.prefab" afterPath="$PROJECT_DIR$/Assets/HyperLuminal/SlidingTilePuzzle/Prefabs/SlideTile.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Manoeuvre FPS Controller FREE/Prefabs/UICamera.prefab" afterPath="$PROJECT_DIR$/Assets/Manoeuvre FPS Controller FREE/Prefabs/UICamera.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/New Dialogue Database (Auto-Backup).asset" afterPath="$PROJECT_DIR$/Assets/New Dialogue Database (Auto-Backup).asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/New Dialogue Database.asset" afterPath="$PROJECT_DIR$/Assets/New Dialogue Database.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/New Terrain 9.asset" afterPath="$PROJECT_DIR$/Assets/New Terrain 9.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Dialogue Manager.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dialogue Manager.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/GreenScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/GreenScene.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/rock05.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/rock05.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene3.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.FairyTales/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FairyTales/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.FairyTales/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FairyTales/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/diffuse.png.meta" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/diffuse.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/normal_specular.png.meta" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/normal_specular.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/shadow.png.meta" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/shadow.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/translucency_gloss.png.meta" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/bush03_Textures/translucency_gloss.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/diffuse.png.meta" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/diffuse.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/normal_specular.png.meta" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/normal_specular.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/shadow.png.meta" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/shadow.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/translucency_gloss.png.meta" afterPath="$PROJECT_DIR$/Assets/Dreamscapes/Nature/Trees/Models/tree09_Textures/translucency_gloss.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/EndPointScript.cs" afterPath="$PROJECT_DIR$/Assets/EndPointScript.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/EnemyCharge.cs" afterPath="$PROJECT_DIR$/Assets/EnemyCharge.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/GameManagerScript.cs" afterPath="$PROJECT_DIR$/Assets/GameManagerScript.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/ShootableBox.cs" afterPath="$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/ShootableBox.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/New Dialogue Database (Auto-Backup).asset.meta" afterPath="$PROJECT_DIR$/Assets/New Dialogue Database (Auto-Backup).asset.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Dialogue Manager.prefab.meta" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dialogue Manager.prefab.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/ManagerScript.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ManagerScript.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/RayCastShootComplete.cs" afterPath="$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/RayCastShootComplete.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/SpawnerScript.cs" afterPath="$PROJECT_DIR$/Assets/SpawnerScript.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,31 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameManagerScript.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameManagerScript.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/GameManagerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-352">
-              <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            <state relative-caret-position="459">
+              <caret line="93" column="109" lean-forward="false" selection-start-line="93" selection-start-column="109" selection-end-line="93" selection-end-column="109" />
               <folding>
-                <marker date="1525160029087" expanded="false" signature="6:190" ph="..." />
-                <marker date="1525160029087" expanded="true" signature="238:4295" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="996:1025" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="1080:1087" ph="{...}" />
-                <marker date="1525160029087" expanded="false" signature="1115:1347" ph="{...}" />
-                <marker date="1525160029087" expanded="false" signature="1374:1648" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="1682:2625" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="1997:2171" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="2201:2378" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="2408:2587" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="2648:2735" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="2761:3021" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="3049:3354" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="3383:3599" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="3632:4000" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="4027:4154" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="4125:4151" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="4183:4292" ph="{...}" />
-                <marker date="1525160029087" expanded="true" signature="4262:4289" ph="{...}" />
+                <marker date="1525178231011" expanded="false" signature="6:190" ph="..." />
+                <marker date="1525178231011" expanded="true" signature="238:4611" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="996:1025" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="1080:1087" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="1115:1347" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="1374:1648" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="1682:2941" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="1997:2274" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="2304:2588" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="2618:2903" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="2964:3051" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="3077:3337" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="3365:3670" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="3699:3915" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="3948:4316" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="4343:4470" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="4441:4467" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="4499:4608" ph="{...}" />
+                <marker date="1525178231011" expanded="true" signature="4578:4605" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -182,29 +52,29 @@
       <file leaf-file-name="SpawnerScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/SpawnerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="86" column="54" lean-forward="false" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
+            <state relative-caret-position="493">
+              <caret line="90" column="26" lean-forward="false" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
               <folding>
-                <marker date="1525161374052" expanded="false" signature="6:194" ph="..." />
-                <marker date="1525161374052" expanded="true" signature="238:3510" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="707:719" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="777:981" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="792:948" ph="/* ShootingGallery(900,0f,2f,-2f,2f); ... */" />
-                <marker date="1525161374052" expanded="true" signature="1092:1285" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="1314:2072" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="1340:2066" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="1432:2056" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="1544:2042" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="2100:2779" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="2113:2140" ph="/* if (!pause) ... */" />
-                <marker date="1525161374052" expanded="true" signature="2222:2761" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="2319:2747" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="2808:2842" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="2873:2908" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="2926:3508" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="3044:3355" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="3087:3345" ph="{...}" />
-                <marker date="1525161374052" expanded="true" signature="3368:3502" ph="{...}" />
+                <marker date="1525176983717" expanded="false" signature="6:194" ph="..." />
+                <marker date="1525176983717" expanded="true" signature="238:3589" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="707:719" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="777:981" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="792:948" ph="/* ShootingGallery(900,0f,2f,-2f,2f); ... */" />
+                <marker date="1525176983717" expanded="true" signature="1092:1285" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="1314:2072" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="1340:2066" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="1432:2056" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="1544:2042" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="2100:2858" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="2126:2852" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="2218:2842" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="2315:2828" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="2887:2921" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="2952:2987" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="3005:3587" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="3123:3434" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="3166:3424" ph="{...}" />
+                <marker date="1525176983717" expanded="true" signature="3447:3581" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -225,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShootableBox.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShootableBox.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/ShootableBox.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -288,18 +158,19 @@
       <file leaf-file-name="RayCastShootComplete.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/RayCastShootComplete.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+            <state relative-caret-position="306">
+              <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
               <folding>
-                <marker date="1524389795760" expanded="false" signature="6:44" ph="..." />
-                <marker date="1524389795760" expanded="true" signature="1311:1663" ph="{...}" />
-                <marker date="1524389795760" expanded="true" signature="1683:3548" ph="{...}" />
-                <marker date="1524389795760" expanded="true" signature="1853:3545" ph="{...}" />
-                <marker date="1524389795760" expanded="true" signature="2610:3290" ph="{...}" />
-                <marker date="1524389795760" expanded="true" signature="2919:3046" ph="{...}" />
-                <marker date="1524389795760" expanded="true" signature="3137:3285" ph="{...}" />
-                <marker date="1524389795760" expanded="true" signature="3298:3541" ph="{...}" />
-                <marker date="1524389795760" expanded="true" signature="3584:3839" ph="{...}" />
+                <marker date="1525176065090" expanded="false" signature="6:44" ph="..." />
+                <marker date="1525176065090" expanded="true" signature="96:3849" ph="{...}" />
+                <marker date="1525176065090" expanded="true" signature="1311:1663" ph="{...}" />
+                <marker date="1525176065090" expanded="true" signature="1683:3556" ph="{...}" />
+                <marker date="1525176065090" expanded="true" signature="1853:3553" ph="{...}" />
+                <marker date="1525176065090" expanded="true" signature="2610:3298" ph="{...}" />
+                <marker date="1525176065090" expanded="true" signature="2927:3054" ph="{...}" />
+                <marker date="1525176065090" expanded="true" signature="3145:3293" ph="{...}" />
+                <marker date="1525176065090" expanded="true" signature="3306:3549" ph="{...}" />
+                <marker date="1525176065090" expanded="true" signature="3592:3847" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -473,7 +344,6 @@
         <option value="$PROJECT_DIR$/Assets/Dialogue System/Scripts/Supplemental/Utility/SimpleController.cs" />
         <option value="$PROJECT_DIR$/Assets/DisableCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/RayViewerComplete.cs" />
-        <option value="$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/RayCastShootComplete.cs" />
         <option value="$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/LevelScripts/ThirdPersonOrbitCamBasic.cs" />
         <option value="$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/BasicBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/3rdPerson+Fly/Scripts/PlayerScripts/MoveBehaviour.cs" />
@@ -484,9 +354,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ManagerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/ShootableBox.cs" />
         <option value="$PROJECT_DIR$/Assets/EndPointScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManagerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/EnemyCharge.cs" />
+        <option value="$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/RayCastShootComplete.cs" />
         <option value="$PROJECT_DIR$/Assets/SpawnerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManagerScript.cs" />
       </list>
     </option>
   </component>
@@ -549,7 +420,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="12172" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -593,11 +464,12 @@
       <workItem from="1524979441598" duration="8534000" />
       <workItem from="1525058642196" duration="8307000" />
       <workItem from="1525144011866" duration="13427000" />
+      <workItem from="1525175075553" duration="3656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139115000" />
+    <option name="totallyTimeSpent" value="142771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,7 +493,6 @@
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08802083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -631,6 +502,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -942,24 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/RayCastShootComplete.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <marker date="1524389795760" expanded="false" signature="6:44" ph="..." />
-            <marker date="1524389795760" expanded="true" signature="1311:1663" ph="{...}" />
-            <marker date="1524389795760" expanded="true" signature="1683:3548" ph="{...}" />
-            <marker date="1524389795760" expanded="true" signature="1853:3545" ph="{...}" />
-            <marker date="1524389795760" expanded="true" signature="2610:3290" ph="{...}" />
-            <marker date="1524389795760" expanded="true" signature="2919:3046" ph="{...}" />
-            <marker date="1524389795760" expanded="true" signature="3137:3285" ph="{...}" />
-            <marker date="1524389795760" expanded="true" signature="3298:3541" ph="{...}" />
-            <marker date="1524389795760" expanded="true" signature="3584:3839" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ManagerScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -998,59 +852,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GameManagerScript.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/RayCastShootComplete.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352">
-          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
           <folding>
-            <marker date="1525160029087" expanded="false" signature="6:190" ph="..." />
-            <marker date="1525160029087" expanded="true" signature="238:4295" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="996:1025" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="1080:1087" ph="{...}" />
-            <marker date="1525160029087" expanded="false" signature="1115:1347" ph="{...}" />
-            <marker date="1525160029087" expanded="false" signature="1374:1648" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="1682:2625" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="1997:2171" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="2201:2378" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="2408:2587" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="2648:2735" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="2761:3021" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="3049:3354" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="3383:3599" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="3632:4000" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="4027:4154" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="4125:4151" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="4183:4292" ph="{...}" />
-            <marker date="1525160029087" expanded="true" signature="4262:4289" ph="{...}" />
+            <marker date="1525176065090" expanded="false" signature="6:44" ph="..." />
+            <marker date="1525176065090" expanded="true" signature="96:3849" ph="{...}" />
+            <marker date="1525176065090" expanded="true" signature="1311:1663" ph="{...}" />
+            <marker date="1525176065090" expanded="true" signature="1683:3556" ph="{...}" />
+            <marker date="1525176065090" expanded="true" signature="1853:3553" ph="{...}" />
+            <marker date="1525176065090" expanded="true" signature="2610:3298" ph="{...}" />
+            <marker date="1525176065090" expanded="true" signature="2927:3054" ph="{...}" />
+            <marker date="1525176065090" expanded="true" signature="3145:3293" ph="{...}" />
+            <marker date="1525176065090" expanded="true" signature="3306:3549" ph="{...}" />
+            <marker date="1525176065090" expanded="true" signature="3592:3847" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SpawnerScript.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/ShootableBox.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="86" column="54" lean-forward="false" selection-start-line="86" selection-start-column="54" selection-end-line="86" selection-end-column="54" />
+        <state relative-caret-position="391">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <marker date="1525161374052" expanded="false" signature="6:194" ph="..." />
-            <marker date="1525161374052" expanded="true" signature="238:3510" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="707:719" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="777:981" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="792:948" ph="/* ShootingGallery(900,0f,2f,-2f,2f); ... */" />
-            <marker date="1525161374052" expanded="true" signature="1092:1285" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="1314:2072" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="1340:2066" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="1432:2056" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="1544:2042" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="2100:2779" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="2113:2140" ph="/* if (!pause) ... */" />
-            <marker date="1525161374052" expanded="true" signature="2222:2761" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="2319:2747" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="2808:2842" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="2873:2908" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="2926:3508" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="3044:3355" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="3087:3345" ph="{...}" />
-            <marker date="1525161374052" expanded="true" signature="3368:3502" ph="{...}" />
+            <marker date="1525144545872" expanded="false" signature="6:80" ph="..." />
+            <marker date="1525144545872" expanded="true" signature="124:838" ph="{...}" />
+            <marker date="1525144545872" expanded="true" signature="257:358" ph="{...}" />
+            <marker date="1525144545872" expanded="true" signature="397:674" ph="{...}" />
+            <marker date="1525144545872" expanded="true" signature="561:671" ph="{...}" />
+            <marker date="1525144545872" expanded="true" signature="725:836" ph="{...}" />
+            <marker date="1525144545872" expanded="true" signature="774:833" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1068,18 +900,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Let's Try Shooter/Scripts/CompletedScripts/ShootableBox.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/SpawnerScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="90" column="26" lean-forward="false" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
           <folding>
-            <marker date="1525144545872" expanded="false" signature="6:80" ph="..." />
-            <marker date="1525144545872" expanded="true" signature="124:838" ph="{...}" />
-            <marker date="1525144545872" expanded="true" signature="257:358" ph="{...}" />
-            <marker date="1525144545872" expanded="true" signature="397:674" ph="{...}" />
-            <marker date="1525144545872" expanded="true" signature="561:671" ph="{...}" />
-            <marker date="1525144545872" expanded="true" signature="725:836" ph="{...}" />
-            <marker date="1525144545872" expanded="true" signature="774:833" ph="{...}" />
+            <marker date="1525176983717" expanded="false" signature="6:194" ph="..." />
+            <marker date="1525176983717" expanded="true" signature="238:3589" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="707:719" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="777:981" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="792:948" ph="/* ShootingGallery(900,0f,2f,-2f,2f); ... */" />
+            <marker date="1525176983717" expanded="true" signature="1092:1285" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="1314:2072" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="1340:2066" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="1432:2056" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="1544:2042" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="2100:2858" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="2126:2852" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="2218:2842" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="2315:2828" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="2887:2921" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="2952:2987" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="3005:3587" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="3123:3434" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="3166:3424" ph="{...}" />
+            <marker date="1525176983717" expanded="true" signature="3447:3581" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GameManagerScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="93" column="109" lean-forward="false" selection-start-line="93" selection-start-column="109" selection-end-line="93" selection-end-column="109" />
+          <folding>
+            <marker date="1525178231011" expanded="false" signature="6:190" ph="..." />
+            <marker date="1525178231011" expanded="true" signature="238:4611" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="996:1025" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="1080:1087" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="1115:1347" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="1374:1648" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="1682:2941" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="1997:2274" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="2304:2588" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="2618:2903" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="2964:3051" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="3077:3337" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="3365:3670" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="3699:3915" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="3948:4316" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="4343:4470" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="4441:4467" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="4499:4608" ph="{...}" />
+            <marker date="1525178231011" expanded="true" signature="4578:4605" ph="{...}" />
           </folding>
         </state>
       </provider>
