@@ -788,20 +788,18 @@
         <e p="PuzzleTrigger.cs" t="Include" />
         <e p="Readme.txt" t="Include" />
         <e p="Scripts" t="Include">
-          <e p="BookTrigger.cs" t="Include" />
           <e p="ChangeScene.cs" t="Include" />
           <e p="ManagerScript.cs" t="Include" />
           <e p="NPCFacePlayer.cs" t="Include" />
           <e p="NPCWalk.cs" t="Include" />
           <e p="PetChooser.cs" t="Include" />
           <e p="PickableItem.cs" t="Include" />
-          <e p="RequireItemsScript.cs" t="Include" />
           <e p="RootMotionScript.cs" t="Include" />
           <e p="SetComponentEnabledCustom.cs" t="Include" />
           <e p="SetDialogueUI.cs" t="Include" />
           <e p="SetText.cs" t="Include" />
-          <e p="SpawnItemScript.cs" t="Include" />
           <e p="TestScript.cs" t="Include" />
+          <e p="WanderScript.cs" t="Include" />
         </e>
         <e p="Shared Assets" t="Include">
           <e p="PostProcessing" t="Include">

@@ -2,20 +2,15 @@
 using System.Collections.Generic;
 using PixelCrushers.DialogueSystem;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ManagerScript : MonoBehaviour
 {
-	public GameObject bookIcon;
-	private bool inBookTrigger = false;
-	private bool inBookCanvas = false;
-	public GameObject bookCanvas;
-	public GameObject player;
-	public List<int> itemsPicked;
+	public int ItemsPicked = 0;
+	public Text text;
 
 	// Use this for initialization
 	void Start () {
-		bookCanvas.SetActive(false);
-		bookIcon = GameObject.FindGameObjectWithTag("BookIcon");
 		
 		
 	}
@@ -23,63 +18,26 @@ public class ManagerScript : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
 		
-		if(Input.GetKeyDown(KeyCode.B) && inBookCanvas)
-		{
-			bookCanvas.SetActive(false);
-			inBookCanvas = false;
-			player.GetComponent<SetComponentEnabledCustom>().enableComponents();
-			DialogueManager.Instance.StopConversation();
-		}
-		else if(Input.GetKeyDown(KeyCode.B) && inBookTrigger && !inBookCanvas)
-		{
-			bookCanvas.SetActive(true);
-			inBookCanvas = true;
-			player.GetComponent<SetComponentEnabledCustom>().disableComponents();
-		}
 		
 	}
 
-	public void EnableBookIcon(int convID)
+
+	public void pickupItem()
 	{
-		bookCanvas.GetComponentInChildren<SetText>().setText(convID);
-		bookIcon.SetActive(true);
-		inBookTrigger = true;
-	}
-	
-	public void DisableBookIcon()
-	{
-		bookIcon.SetActive(false);
-		inBookTrigger = false;
+		ItemsPicked++;
+		text.text = ItemsPicked.ToString();
 	}
 
-	public void exitBook()
+	public int checkItem()
 	{
-		if (inBookCanvas)
-		{
-			bookCanvas.SetActive(false);
-			inBookCanvas = false;
-			player.GetComponent<SetComponentEnabledCustom>().enableComponents();
-			DialogueManager.Instance.StopConversation();
-		}
+		return ItemsPicked;
 	}
 
-	public void pickupItem(int id)
+	public bool checkRequiredItems()
 	{
-		itemsPicked.Add(id);
-	}
-
-	public bool checkItem(int id)
-	{
-		return itemsPicked.Contains(id);
-	}
-
-	public bool checkRequiredItems(List<int> requiredItems)
-	{
-		foreach (int item in requiredItems)
-		{
-			if (!itemsPicked.Contains(item))
-				return false;
-		}
-		return true;
+		if (ItemsPicked >= 5)
+				return true;
+		
+		return false;
 	}
 }

@@ -65,12 +65,12 @@ public class RayCastShootComplete : MonoBehaviour {
 					health.Damage (gunDamage);
 				}
 
-				// Check if the object we hit has a rigidbody attached
+				/*// Check if the object we hit has a rigidbody attached
 				if (hit.rigidbody != null)
 				{
 					// Add force to the rigidbody we hit, in the direction from which it was hit
 					hit.rigidbody.AddForce (-hit.normal * hitForce);
-				}
+				}*/
 			}
 			else
 			{

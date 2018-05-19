@@ -12,7 +12,7 @@ public class ShootableBox : MonoBehaviour {
 
 	private void Start()
 	{
-		manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerScript>();
+		//manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerScript>();
 	}
 
 	public void Damage(int damageAmount)
@@ -24,8 +24,9 @@ public class ShootableBox : MonoBehaviour {
 		if (currentHealth <= 0) 
 		{
 			//if health has fallen below zero, deactivate it 
-			manager.shotTarget();
+			//manager.shotTarget();
 			Destroy(gameObject);
+			GameObject.FindGameObjectWithTag("GameManager").GetComponent<ManagerScript>().pickupItem();
 		}
 	}
 
