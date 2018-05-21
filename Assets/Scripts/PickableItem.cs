@@ -9,6 +9,7 @@ public class PickableItem : MonoBehaviour
 
 	public int itemID;
 	public GameObject food;
+	private bool used;
 
 	// Use this for initialization
 	void Start () {
@@ -22,9 +23,14 @@ public class PickableItem : MonoBehaviour
 
 	public void OnUse()
 	{
-		GameObject.FindGameObjectWithTag("GameManager").GetComponent<ManagerScript>().pickupItem();
-		if(food)
-			food.SetActive(false);
-		Destroy(gameObject);
+		if (!used)
+		{
+			GameObject.FindGameObjectWithTag("GameManager").GetComponent<ManagerScript>().pickupItem();
+
+			if (food)
+				food.SetActive(false);
+
+			used = true;
+		}
 	}
 }

@@ -26,7 +26,7 @@ public class ShootableBox : MonoBehaviour {
 			//if health has fallen below zero, deactivate it 
 			//manager.shotTarget();
 			Destroy(gameObject);
-			GameObject.FindGameObjectWithTag("GameManager").GetComponent<ManagerScript>().pickupItem();
+			GameObject.FindGameObjectWithTag("GameManager").GetComponent<ManagerScript>().shootItem();
 		}
 	}
 

@@ -7,7 +7,11 @@ using UnityEngine.UI;
 public class ManagerScript : MonoBehaviour
 {
 	public int ItemsPicked = 0;
-	public Text text;
+	public int ItemsCollected = 0;
+	public int ItemsShot = 0;
+	public Text totalText;
+	public Text shotText;
+	public Text collectedText;
 
 	// Use this for initialization
 	void Start () {
@@ -25,7 +29,17 @@ public class ManagerScript : MonoBehaviour
 	public void pickupItem()
 	{
 		ItemsPicked++;
-		text.text = ItemsPicked.ToString();
+		ItemsCollected++;
+		totalText.text = ItemsPicked.ToString();
+		collectedText.text = ItemsCollected.ToString();
+	}
+	
+	public void shootItem()
+	{
+		ItemsPicked++;
+		ItemsShot++;
+		totalText.text = ItemsPicked.ToString();
+		shotText.text = ItemsShot.ToString();
 	}
 
 	public int checkItem()
@@ -33,11 +47,4 @@ public class ManagerScript : MonoBehaviour
 		return ItemsPicked;
 	}
 
-	public bool checkRequiredItems()
-	{
-		if (ItemsPicked >= 5)
-				return true;
-		
-		return false;
-	}
 }

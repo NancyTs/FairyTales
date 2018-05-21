@@ -29,6 +29,8 @@ public class WanderScript : MonoBehaviour
             agent.SetDestination(newPos);
             timer = 0;
         }
+        
+        //animator.SetFloat("Speed", navMeshAgent.desiredVelocity.magnitude);
     }
  
     public static Vector3 RandomNavSphere(Vector3 origin, float dist, int layermask) {
