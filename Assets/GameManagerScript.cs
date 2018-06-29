@@ -34,7 +34,7 @@ public class GameManagerScript : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		StartShootingGame();
+		//StartShootingGame();
 	}
 	
 	// Update is called once per frame
@@ -162,13 +162,5 @@ public class GameManagerScript : MonoBehaviour
 		}
 	}
 
-	public void missedTarget()
-	{
-		missedTargets++;
-		if (missedTargets > numSpawnTargets-requiredSuccesses)
-		{
-			lostShooting();
-		}
-	}
 
 }

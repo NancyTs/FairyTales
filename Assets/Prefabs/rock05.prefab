@@ -21,8 +21,9 @@ GameObject:
   - component: {fileID: 4466706788879528}
   - component: {fileID: 54019278397864926}
   - component: {fileID: 114557411119172026}
-  - component: {fileID: 114627099085921940}
-  m_Layer: 0
+  - component: {fileID: 135344496145744858}
+  - component: {fileID: 114244748993089892}
+  m_Layer: 1
   m_Name: rock05
   m_TagString: Shootable
   m_Icon: {fileID: 0}
@@ -39,8 +40,7 @@ GameObject:
   - component: {fileID: 4736524935401334}
   - component: {fileID: 33593681842196618}
   - component: {fileID: 23426998036987290}
-  - component: {fileID: 135716982330489798}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: rock05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,8 +54,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1387618642320596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 234.33798, y: 6.58, z: 63.99164}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 156.33, y: 8.588418, z: 36.9915}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4736524935401334}
   m_Father: {fileID: 0}
@@ -130,6 +130,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114244748993089892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387618642320596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5a2cd8e323b3b42a7f5a6c5d0e58a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 1
 --- !u!114 &114557411119172026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -142,27 +154,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 25
---- !u!114 &114627099085921940
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1387618642320596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e5a2cd8e323b3b42a7f5a6c5d0e58a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHealth: 1
---- !u!135 &135716982330489798
+--- !u!135 &135344496145744858
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1571189705230766}
+  m_GameObject: {fileID: 1387618642320596}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.009025255
-  m_Center: {x: -0.0000044149347, y: 0.008917784, z: 0.000054409727}
+  m_Radius: 0.92
+  m_Center: {x: 0, y: 0.9, z: 0}

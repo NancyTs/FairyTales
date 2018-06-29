@@ -7,24 +7,29 @@ using UnityEngine;
 
 public class SpawnerScript : MonoBehaviour
 {
-    public GameObject prefab;
-    public Rigidbody targetPrefab;
-    public Rigidbody rockPrefab;
-    private float spawnRate = 1.5f;
+    public GameObject rockPrefab;
+    private float spawnRate = 2f;
     private float spawnTimer = 0;
     private float startCountdown = 3f;
+    public int counterInitial;
     public int counter;
     public int successesTarget;
-    private int force;
-    private float xmin;
-    private float xmax;
-    private float ymin;
-    private float ymax;
+    public int force;
+    public float xmin;
+    public float xmax;
+    public float ymin;
+    public float ymax;
     private bool pause = false;
+    public GameObject retry;
+    private ManagerScript manager;
 
     // Use this for initialization
     void Start()
     {
+        //setShootingParameters(20,30,0f,3f,0f,4f);
+        counter = counterInitial;
+        manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<ManagerScript>();
+        manager.ItemsShot = 0;
     }
 
     // Update is called once per frame
@@ -40,7 +45,7 @@ public class SpawnerScript : MonoBehaviour
     public void setShootingParameters(int Counter, int Force, float Xmin, float Xmax, float Ymin, float Ymax)
     {
         counter = Counter;
-        startCountdown = Random.Range(2f, 5f);
+        startCountdown = Random.Range(4f, 6f);
         force = Force;
         xmin = Xmin;
         xmax = Xmax;
@@ -48,33 +53,9 @@ public class SpawnerScript : MonoBehaviour
         ymax = Ymax;
     }
 
-
-    void ShootingGallery()
-    {
-        if (!pause)
-        {
-            startCountdown -= Time.deltaTime;
-            if (startCountdown < 0)
-            {
-                spawnTimer -= Time.deltaTime;
-                if (spawnTimer <= 0 && counter > 0)
-                {
-                    spawnTimer = spawnRate;
-                    Vector3 spawnPosition = transform.position;
-                    spawnPosition.x += Random.Range(xmin, xmax);
-                    spawnPosition.y += Random.Range(ymin, ymax);
-                    Rigidbody target;
-                    target = Instantiate(targetPrefab, spawnPosition, transform.rotation);
-                    target.AddForce(transform.forward * force);
-                    counter--;
-                }
-            }
-        }
-    }
-
     void monsterShooting()
     {
-        if (!pause)
+        if (!pause && counter >= 0)
         {
             startCountdown -= Time.deltaTime;
             if (startCountdown < 0)
@@ -86,13 +67,27 @@ public class SpawnerScript : MonoBehaviour
                     Vector3 spawnPosition = transform.position;
                     spawnPosition.x += Random.Range(xmin, xmax);
                     spawnPosition.y += Random.Range(ymin, ymax);
-                    Rigidbody target;
+                    GameObject target;
                     target = Instantiate(rockPrefab, spawnPosition, transform.rotation);
-                    target.gameObject.GetComponent<EnemyCharge>().speed = force;
+                    target.GetComponent<EnemyCharge>().speed = force;
                     counter--;
                 }
             }
         }
+        if (counter < 0)
+        {
+            retry.SetActive(true);
+        }
+    }
+
+    public void reset()
+    {
+        counter = counterInitial;
+        startCountdown = Random.Range(4f, 6f);
+        spawnTimer = 0;
+        manager.ItemsShot = 0;
+        retry.SetActive(false);
+        //reset position?
     }
 
     public void pauseGame()
@@ -103,25 +98,5 @@ public class SpawnerScript : MonoBehaviour
     public void unPauseGame()
     {
         pause = false;
-    }
-
-    void Boars()
-    {
-        spawnTimer -= Time.deltaTime;
-        startCountdown -= Time.deltaTime;
-        if (startCountdown > 0)
-        {
-            if (spawnTimer <= 0)
-            {
-                spawnTimer = spawnRate;
-                Vector3 spawnPosition = transform.position;
-                spawnPosition.z -= Random.Range(0f, 10f);
-                Instantiate(prefab, spawnPosition, transform.rotation);
-            }
-        }
-        else
-        {
-            GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerScript>().StopShootingGame();
-        }
     }
 }

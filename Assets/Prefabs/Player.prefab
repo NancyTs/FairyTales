@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 114143527629704642}
   - component: {fileID: 114818593711862376}
   - component: {fileID: 114980441430819304}
+  - component: {fileID: 114062247796495480}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1041,7 +1042,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1467173802160766}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 78.73, y: 0, z: 87.36}
+  m_LocalPosition: {x: 87.1, y: 0, z: 55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4829786023975232}
@@ -1590,6 +1591,27 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114062247796495480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1467173802160766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a805898d10649184f945ca231075aafd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainGraphic: {fileID: 0}
+  nameText: {fileID: 0}
+  useMessageText: {fileID: 0}
+  inRangeColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  outOfRangeColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  reticleInRange: {fileID: 0}
+  reticleOutOfRange: {fileID: 0}
+  animationTransitions:
+    showTrigger: 
+    hideTrigger: 
 --- !u!114 &114143527629704642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1687,16 +1709,16 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1467173802160766}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 247335de9c2ba3d49bbbada1d0562339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   aimButton: Aim
   shoulderButton: Aim Shoulder
-  crosshair: {fileID: 2800000, guid: 145fa8a1dfcf6c3459f8df4ac782dba2, type: 3}
-  aimTurnSmoothing: 0.25
-  aimPivotOffset: {x: 0.5, y: 1.2, z: 0}
+  crosshair: {fileID: 2800000, guid: 2abd508b0dbf3724d8deb1603e2bac01, type: 3}
+  aimTurnSmoothing: 0
+  aimPivotOffset: {x: 0, y: 0.5, z: 0.5}
   aimCamOffset: {x: 0, y: 0.4, z: -0.7}
   gun: {fileID: 0}
 --- !u!114 &114516454118206124
@@ -1726,7 +1748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 1
-  runSpeed: 0.7
+  runSpeed: 1
   sprintSpeed: 2
   speedDampTime: 0.1
   jumpButton: Jump
@@ -1834,7 +1856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 0}
-  turnSmoothing: 0.06
+  turnSmoothing: 0.1
   sprintFOV: 100
   sprintButton: Sprint
 --- !u!114 &114980441430819304
@@ -1848,7 +1870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e6f25f20d0ae6b419f6ebfade5ecc81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useDefaultGUI: 1
+  useDefaultGUI: 0
   guiSkin: {fileID: 0}
   guiStyleName: label
   alignment: 1

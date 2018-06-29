@@ -5,6 +5,7 @@
     <e p="C:\Users\Snowflake\Documents\unity\FairyTales" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="3rdPerson+Fly" t="Include">
@@ -21,6 +22,9 @@
               <e p="MoveBehaviour.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="755f5e0e160d18b2463b5e0dd338f689" t="Include">
+          <e p="archibase.net.txt" t="Include" />
         </e>
         <e p="AnimationNoise.cs" t="Include" />
         <e p="Baker House" t="Include">
@@ -420,6 +424,7 @@
         </e>
         <e p="EndPointScript.cs" t="Include" />
         <e p="EnemyCharge.cs" t="Include" />
+        <e p="FadeInAndOut.cs" t="Include" />
         <e p="Fantasy RPG Warrior Pack" t="Include">
           <e p="Models" t="Include">
             <e p="Shaders" t="Include">
@@ -427,7 +432,9 @@
             </e>
           </e>
         </e>
+        <e p="FightTrigger.cs" t="Include" />
         <e p="GameManagerScript.cs" t="Include" />
+        <e p="GolemTransformation.cs" t="Include" />
         <e p="HyperLuminal" t="Include">
           <e p="SlidingTilePuzzle" t="Include">
             <e p="Scripts" t="Include">
@@ -627,6 +634,20 @@
           </e>
         </e>
         <e p="SpawnerScript.cs" t="Include" />
+        <e p="Standard Assets" t="Include">
+          <e p="Environment" t="Include">
+            <e p="Water (Basic)" t="Include">
+              <e p="DO_NOT_WORK_IN_VR.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="WaterBasic.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="FXWaterBasic.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="TurnUsableOn.cs" t="Include" />
       </e>
       <e p="FairyTales.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

@@ -8,11 +8,11 @@ public class ShootableBox : MonoBehaviour {
 	//The box's current health point total
 	public int currentHealth = 1;
 
-	private GameManagerScript manager;
+	private ManagerScript manager;
 
 	private void Start()
 	{
-		//manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerScript>();
+		manager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<ManagerScript>();
 	}
 
 	public void Damage(int damageAmount)
@@ -26,13 +26,13 @@ public class ShootableBox : MonoBehaviour {
 			//if health has fallen below zero, deactivate it 
 			//manager.shotTarget();
 			Destroy(gameObject);
-			GameObject.FindGameObjectWithTag("GameManager").GetComponent<ManagerScript>().shootItem();
+			manager.shootItem();
 		}
 	}
 
-	public void OnCollisionEnter(Collision collider)
+	void OnCollisionEnter(Collision collider)
 	{
-		if (collider.gameObject.name == "EndPoint")
+		if (collider.gameObject.CompareTag("EndPoint"))
 		{
 			manager.missedTarget();
 			Destroy(gameObject);

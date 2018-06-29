@@ -17,21 +17,17 @@ public class Fader : MonoBehaviour {
     public bool isFadeIn = false;
 
     //Set callback
-    void OnEnable()
+    void Start()
     {
-        SceneManager.sceneLoaded += OnLevelFinishedLoading;
-    }
-    //Remove callback
-    void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnLevelFinishedLoading;
+	    //isFadeIn = true;
+	    OnLevelFinishedLoading();
     }
 
     //Create a texture , Color it, Paint It , then Fade Away
     void OnGUI () {
         //Fallback check
-        if (!start)
-			return;
+       /* if (!start)
+			return;*/
         //Assign the color with variable alpha
 		GUI.color = new Color (GUI.color.r, GUI.color.g, GUI.color.b, alpha);
         //Temp Texture
@@ -57,7 +53,7 @@ public class Fader : MonoBehaviour {
 
 	}
 
-    void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
+    void OnLevelFinishedLoading()
     {
         //We can now fade in
         isFadeIn = true;

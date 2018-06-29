@@ -20,7 +20,7 @@ public class EndPointScript : MonoBehaviour
 		
 	}
 
-	void OnTriggerEnter(Collider other)
+	/*void OnTriggerEnter(Collider other)
 	{
 
 		if (other.gameObject.tag == "Shootable")
@@ -28,5 +28,5 @@ public class EndPointScript : MonoBehaviour
 			manager.missedTarget();
 			Destroy(other.gameObject);
 		}
-	}
+	}*/
 }

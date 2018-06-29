@@ -13,6 +13,7 @@ TagManager:
   - Shootable
   - Boar
   - Boundary
+  - EndPoint
   layers:
   - Default
   - TransparentFX

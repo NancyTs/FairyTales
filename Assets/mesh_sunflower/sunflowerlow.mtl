@@ -1,0 +1,26 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D Pro v3.47
+# URL: http://www.unwrap3d.com
+# Time: Mon Oct 28 20:04:05 2013
+# num_materials: 2
+
+newmtl trunk
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 0.000000
+map_Kd sunflowertrunk_tex.png
+
+newmtl transparentparts
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 0.000000
+map_Kd sunflowertransparent_tex.png
+map_Bump sunflowertransparent_NM.png
+
+# num_materials: 2
